@@ -1,0 +1,26 @@
+.post{
+
+    background-color: white;
+    border-radius: 14px;
+    padding: 1rem;
+}
+.infoUser{
+    display: flex;
+
+}
+.avatar{
+    background-image: url("../../img/slider-img-love-3.jpg");
+    height: 70px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px 70px;
+    border-radius: 60%;
+}
+
+.userName{
+    padding-left: 10px;
+}
+.postContent{
+    padding-left: 80px;
+}

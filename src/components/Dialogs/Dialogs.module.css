@@ -1,0 +1,78 @@
+.dialogs{
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+}
+.dialogs h2{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #6c757d;
+    font-family: dm sans , sans-serif;
+    font-size: 18px;
+    padding: 12px 0px;
+}
+.itemDialog{
+    text-decoration: none;
+}
+.itemDialog active {
+    background-color: rgba(66, 68, 75, 0.1);
+}
+.Dialogs_item active{
+    background-color: rgba(66, 68, 75, 0.1);
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    row-gap: 20px;
+    flex-grow: 1;
+}
+.message{
+    background-color: rgba(108, 117, 125, 0.16);
+    border-radius: 6px;
+    padding: 10px;
+    max-width: 25%;
+}
+.textMessage{
+    width: 96%;
+    border-radius: 10px;
+    background-color: rgba(108, 117, 125, 0.09);
+    outline: none;
+    border: none;
+    padding: 10px 12px;
+}
+.friends{
+    border-right: 1px solid rgba(108, 117, 125, 0.24);
+}
+.friendsColumn{
+    display: flex;
+    flex-direction: column;
+}
+.friend{
+    padding: 10px;
+    background-color: rgba(108, 117, 125, 0.1);
+    border-radius: 3px;
+}
+.avatar{
+    background-image: url("../../img/slider-img-love-2.jpg");
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40px 40px;
+    border-radius: 60%;
+}
+.infoUser{
+    display: flex;
+}
+.userName{
+    padding-left: 10px;
+    color: black;
+}
+.userNameWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}

@@ -1,0 +1,77 @@
+.nav .logo{
+    display: inline-block;
+    top: 18px;
+    height: 51px;
+    width: 152px;
+    background-image: url("../../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 51px 51px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.item{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #6c757d;
+    font-family: dm sans , sans-serif;
+    font-size: 14px;
+    padding: 12px 16px;
+    transition: all .1s ease-in;
+}
+.item:active{
+    background-color: white;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: 11px;
+    color: black;
+}
+.item:focus-visible{
+    background-color: white;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: 11px;
+    color: black;
+}
+.item:focus-within{
+    background-color: white;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: 11px;
+    color: black;
+}
+.item:target{
+    background-color: white;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: 11px;
+    color: black;
+}
+/*.item:visited{*/
+/*    background-color: white;*/
+/*    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);*/
+/*    border-radius: 11px;*/
+/*    color: black;*/
+/*}*/
+.item:hover{
+
+    background-color: white;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: 11px;
+    color: black;
+}
+.itemActive{
+    background-color: white;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: 11px;
+    color: black;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+}
